@@ -1,4 +1,4 @@
-# Soren Hale — Light Portfolio
+# ola Hale — Light Portfolio
 
 A light-mode developer portfolio built with Next.js (App Router), TypeScript and Framer Motion.
 

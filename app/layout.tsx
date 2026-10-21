@@ -13,9 +13,9 @@ const serif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Soren Hale — Frontend Developer",
+  title: "ola Hale — Frontend Developer",
   description:
-    "Portfolio of Soren Hale, a frontend developer and software engineer building fast, accessible interfaces.",
+    "Portfolio of ola Hale, a frontend developer and software engineer building fast, accessible interfaces.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

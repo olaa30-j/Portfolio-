@@ -45,7 +45,7 @@ export default function Stack() {
           </div>
 
           <div className="screen" aria-live="polite">
-            <span className="prompt">$ soren --uses {current.key.toLowerCase()}</span>
+            <span className="prompt">$ ola --uses {current.key.toLowerCase()}</span>
             <motion.div
               key={current.key}
               initial={{ opacity: 0, y: 8 }}

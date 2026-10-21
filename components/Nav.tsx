@@ -2,8 +2,8 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="wrap nav-inner">
-        <a href="#top" className="logo" aria-label="Soren Hale, home">
-          <i /> soren.dev
+        <a href="#top" className="logo" aria-label="ola Hale, home">
+          <i /> ola.dev
         </a>
         <nav className="nav-links" aria-label="Primary">
           <a href="#work">Work</a>

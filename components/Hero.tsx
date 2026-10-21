@@ -5,8 +5,8 @@ import { motion, useReducedMotion } from "framer-motion";
 import { profile } from "./data";
 
 const code = [
-  <><span className="c">{"// soren.config.ts"}</span></>,
-  <><span className="k">export const</span> <span className="f">soren</span> = {"{"}</>,
+  <><span className="c">{"// ola.config.ts"}</span></>,
+  <><span className="k">export const</span> <span className="f">ola</span> = {"{"}</>,
   <>  role: <span className="s">"Frontend Developer"</span>,</>,
   <>  stack: [<span className="s">"React"</span>, <span className="s">"Next"</span>, <span className="s">"TS"</span>],</>,
   <>  focus: [<span className="s">"performance"</span>,</>,
@@ -28,7 +28,7 @@ const code = [
 function Portrait() {
   // Placeholder illustration. Swap this SVG for <img src="/portrait.jpg" /> when you have a photo.
   return (
-    <svg viewBox="0 0 400 460" width="100%" height="100%" preserveAspectRatio="xMidYEnd slice" aria-label="Portrait of Soren Hale">
+    <svg viewBox="0 0 400 460" width="100%" height="100%" preserveAspectRatio="xMidYEnd slice" aria-label="Portrait of ola Hale">
       <defs>
         <linearGradient id="skin" x1="0" x2="1" y1="0" y2="1">
           <stop offset="0" stopColor="#f2c9a5" />
@@ -120,7 +120,7 @@ export default function Hero() {
         >
           <div className="compile-bar">
             <div className="dots" aria-hidden="true"><i /><i /><i /></div>
-            <span>{showCode ? "soren.config.ts" : "portrait.tsx"}</span>
+            <span>{showCode ? "ola.config.ts" : "portrait.tsx"}</span>
             <button
               type="button"
               className="switch"
